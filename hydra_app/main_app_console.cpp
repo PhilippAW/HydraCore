@@ -341,7 +341,7 @@ static void Draw(std::shared_ptr<IHRRenderDriver> a_pDetachedRenderDriverPointer
       const std::wstring outStr1 = fname1.str();
       const std::wstring outStr2 = fname2.str();
       hrRenderSaveFrameBufferLDR(renderRef, outStr1.c_str());
-      hrRenderSaveFrameBufferHDR(renderRef, outStr2.c_str());
+      //hrRenderSaveFrameBufferHDR(renderRef, outStr2.c_str());
       saveImageLast = saveImages*2-1; // to save 1, 2, 4, 8, ... ; and saveImages to save 1, 2, 3, 4, ... 
       std::wcout << L"image " << outStr1.c_str() << L" saved " << std::endl;
     }

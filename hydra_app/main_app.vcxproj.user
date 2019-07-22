@@ -5,7 +5,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>-nowindow 0</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-nowindow 1 -inputlib "C:\Hydra\HydraTest\Library\Library" -out "C:\Hydra\HydraTest\result.png" -hydradir "C:\Projects\lightcad\bin\Release\bin\Hydra\bin2" -saveinterval 2.0 -outall "C:\Hydra\HydraTest" -evalgbuffer 1 -outdir "C:\Hydra\HydraTest"</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
